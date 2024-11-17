@@ -1,0 +1,128 @@
+:root {
+    --custom-color-i: steelblue;
+    --custom-color-ii: skyblue;
+}
+
+.navbar-expand-lg {
+    background-color: #4ba5ff;
+}
+
+body {
+    padding-top: 80px;
+}
+
+h2 {
+    font-size: 1.5rem;
+}
+
+.wave {
+    animation: motion 3s infinite;
+}
+
+@keyframes motion {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.25);
+    }
+}
+
+.justify {
+    text-align: justify;
+}
+
+.bg1 {
+    background-color: var(--custom-color-i);
+}
+
+.bg2 {
+    background-color: var(--custom-color-ii);
+}
+
+.bg3 {
+    background-color: var(--custom-color-iii);
+}
+
+.logo {
+    width: 75px;
+}
+
+.Logo {
+    width: 150px;
+}
+li {
+    list-style-type: none;
+}
+
+ol li {
+    list-style-type: square;
+}
+
+.gap {
+    height: 30px;
+}
+
+.gray {
+    color: #ececec;
+}
+
+.link {
+    transition: 0.5s;
+    cursor: pointer;
+    color: #ececec;
+    text-decoration: none;
+    display: inline-block;
+}
+
+.link:hover {
+    transform: translateX(10px);
+    color: black;
+}
+
+.active {
+    color: black;
+}
+
+.illustration {
+    position: absolute;
+    width: 300px;
+    top: 20%;
+    right: 5%;
+}
+
+.underline {
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    padding-bottom: 2px;
+}
+
+strong {
+    font-weight: 600;
+}
+
+.WA {
+    background-color: #0cdb8b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.disclaimer {
+    color: #666;
+    text-align: justify;
+    user-select: none;
+}
+
+.wa {
+    z-index: 1000;
+}
+
+.hover-black:hover {
+    color: black !important;
+}
+
+.highlight {
+    color: #abffff;
+}

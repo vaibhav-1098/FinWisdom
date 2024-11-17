@@ -1,0 +1,107 @@
+.blurredText {
+    filter: blur(6px);
+    user-select: none;
+}
+
+.blurredTextSm {
+    filter: blur(3px);
+    user-select: none;
+}
+
+.mutedButton{
+    background-color: gray;
+}
+
+.ribbon {
+    position: relative;
+    margin: 30px auto;
+    margin-bottom: 50px;
+    padding: 10px 40px;
+    text-align: center;
+    color: white;
+    font-size: 1.5rem;
+    background-color: var(--custom-color-i);
+    width: 80%;
+}
+
+.ribbon::before,
+.ribbon::after {
+    content: "";
+    width: 80px;
+    height: 100%;
+    background-color: var(--custom-color-ii);
+    position: absolute;
+    z-index: -1;
+    top: 20px;
+    background-image: linear-gradient(45deg, transparent 50%, var(--custom-color-i) 50%);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%, 25% 50%);
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+}
+
+.ribbon::before {
+    left: -60px;
+}
+
+.ribbon::after {
+    right: -60px;
+    transform: scaleX(-1);
+}
+
+.button {
+    font-size: 1.1rem;
+    border-radius: 5px;
+    border-radius: 5px;
+    border: solid 1px black;
+    background-color: var(--custom-color-ii);
+    padding: 10px;
+    box-shadow: 0px 6px 0px var(--custom-color-i);
+}
+
+.jelly {
+    -webkit-animation: jelly 1s both;
+    animation: jelly 1s both;
+}
+
+@keyframes jelly {
+    0% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+    30% {
+        -webkit-transform: scale3d(1.25, 0.75, 1);
+        transform: scale3d(1.25, 0.75, 1);
+    }
+    40% {
+        -webkit-transform: scale3d(0.75, 1.25, 1);
+        transform: scale3d(0.75, 1.25, 1);
+    }
+    50% {
+        -webkit-transform: scale3d(1.15, 0.85, 1);
+        transform: scale3d(1.15, 0.85, 1);
+    }
+    65% {
+        -webkit-transform: scale3d(0.95, 1.05, 1);
+        transform: scale3d(0.95, 1.05, 1);
+    }
+    75% {
+        -webkit-transform: scale3d(1.05, 0.95, 1);
+        transform: scale3d(1.05, 0.95, 1);
+    }
+    100% {
+        -webkit-transform: scale3d(1, 1, 1);
+        transform: scale3d(1, 1, 1);
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .ribbon::before,
+    .ribbon::after {
+        background-color: transparent;
+        background-image: none;
+    }
+    .ribbon {
+        border-radius: 10px;
+    }
+}

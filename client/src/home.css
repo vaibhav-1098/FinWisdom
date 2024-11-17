@@ -1,0 +1,109 @@
+.iframe-container {
+    position: relative;
+    width: 100%;
+    padding-top: 56.25%;
+    overflow: hidden;
+}
+
+.iframe-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.pc img {
+    width: 100%;
+    height: auto;
+}
+
+.lights {
+    font-size: 2rem;
+    font-weight: 600;
+    animation: lightning 1s infinite;
+}
+
+@keyframes lightning {
+    0%,
+    100% {
+        color: #4285f4;
+    }
+    50% {
+        color: #ea4335;
+    }
+}
+
+#trade {
+    position: absolute;
+    top: 13%;
+    left: 13%;
+    width: 74%;
+    height: auto;
+}
+
+.blog-img {
+    background-size: cover;
+    background-position: center;
+    height: 280px;
+    aspect-ratio: 16/9;
+    border-radius: 5px;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blog-text {
+    color: #494949;
+    text-align: justify;
+}
+
+.height {
+    height: 50vh;
+}
+
+ol,ul li {
+    text-align: left !important;
+}
+
+/* Base styles for all screen sizes */
+#nav-links {
+    display: flex;
+    justify-content: center; /* Center-align nav links by default */
+}
+
+#nav-buttons {
+    display: flex;
+    justify-content: center; /* Buttons are centered by default */
+}
+
+/* Media query for large screens */
+@media (min-width: 992px) {
+    #nav-links {
+        flex: 1; /* Allow nav links to stay centered */
+    }
+
+    #nav-buttons {
+        margin-left: auto; /* Push buttons to the right */
+        justify-content: flex-end;
+    }
+
+    #navbar-collapse {
+        display: flex;
+        justify-content: space-between; /* Space out links and buttons */
+        align-items: center;
+    }
+}
+
+
+@media (max-width: 576px) {
+    .pc-heading {
+        margin-top: 1rem;
+    }
+    .blog-img{
+        height: 200px;
+    }
+}

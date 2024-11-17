@@ -1,0 +1,103 @@
+.bg-gray {
+    background-color: #cfe2ff;
+    padding: 10px;
+    box-shadow: none;
+    border: none;
+}
+
+.bg-gray::after {
+    display: none;
+}
+
+.profile {
+    color: rgba(0, 0, 0, 0.75);
+}
+
+.query {
+    animation: scaleAnimation 2s infinite;
+}
+
+@keyframes scaleAnimation {
+    0%,
+    100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.shrink {
+    transform: scale(0.9);
+}
+
+.expand {
+    transform: scale(0.95);
+}
+
+.darkblue {
+    color: darkblue;
+}
+
+.price-title {
+    background-image: linear-gradient(var(--custom-color-i), darkblue);
+}
+
+.card-body div {
+    min-height: 50px;
+}
+
+.card-body {
+    background-image: linear-gradient(black, grey);
+    padding: 0 2rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.discount {
+    color: springgreen;
+}
+
+.price-card {
+    height: 350px;
+}
+
+.circle {
+    position: absolute;
+    top: -70px;
+    left: 50%;
+    transform: translateX(-50%);
+    aspect-ratio: 1/1;
+    background-position: center;
+    background-size: cover;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.name {
+    color: var(--custom-color-i);
+}
+
+.quote {
+    font-size: 1.1rem;
+    border-left: 5px solid var(--custom-color-i);
+    background-color: #87cfeb55;
+}
+
+.small-btn {
+    transform: scale(0.8);
+}
+
+.carousel-item {
+    background-position: center;
+    background-size: 100% 100%;
+    height: 250px;
+}
+
+@media (min-width: 576px) {
+    .carousel-item {
+        height: 450px;
+    }
+}

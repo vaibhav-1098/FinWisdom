@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Email Verification</title>
+        <style>
+            body {
+                font-family: Arial, sans-serif;
+                background-color: #f4f4f4;
+                padding: 20px;
+            }
+            h1 {
+                text-align: center;
+            }
+            .container {
+                background: #fff;
+                padding: 20px;
+                border-radius: 5px;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .otp {
+                background-color: steelblue;
+                padding: 10px;
+                border-radius: 5px;
+                text-align: center;
+                font-size: 25px;
+                margin: 20px 0;
+                color: white;
+            }
+            .welcome {
+                text-align: center;
+                font-size: 22px;
+                margin: 20px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Email Verification</h1>
+            <p class="welcome">Welcome to HSJN FinWisdom!</p>
+            <p>Hey there,</p>
+            <p>Your journey to financial wisdom starts now! To get you verified and on your way,here's your One-Time Password (OTP):</p>
+            <div class="otp">{{otp}}</div>
+            <p>Make sure to verify it within the next <strong>5 minutes</strong> to unlock all the amazing features we have in store for you.</p>
+            <p>Thank you for choosing us!</p>
+            <br>
+            <div>
+                <p>Best wishes from<br />The HSJN FinWisdom Team</p>
+            </div>
+        </div>
+    </body>
+</html>
