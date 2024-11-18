@@ -16,7 +16,7 @@ app.use(cookieParser());
 
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
-app.use(cors({ origin: process.env.REACT_URL }));
+app.use(cors());
 
 /* routes */
 app.get("/", (req, res) => {
