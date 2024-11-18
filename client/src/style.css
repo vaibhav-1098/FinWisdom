@@ -91,19 +91,22 @@
     background-color: #58585865;
     color: white;
 }
-.account-btn:hover,.LogBtnActive{
+.account-btn:hover,
+.LogBtnActive {
     background-color: #5858589d;
     color: aquamarine;
 }
 
-#pdf-btn{
+#pdf-btn {
     width: 125px;
 }
 
 .active-class {
-    font-weight: 500;
+    background-color: rgb(20, 213, 220);
+    border-radius: 5px;
+    border: 1px solid black;
 }
 
-.blog-img{
+.blog-img {
     width: 100%;
 }

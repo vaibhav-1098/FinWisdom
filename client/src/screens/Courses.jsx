@@ -121,14 +121,6 @@ const Courses = () => {
 
                 <h1 className="text-center darkblue">Technical Analysis Courses</h1>
 
-                {!isLogin && (
-                    <Link to="/login" onClick={scrollToTop}>
-                        <marquee behavior="" direction="" className="mt-3 bg-info p-1 text-white">
-                            Login to view price. CLICK HERE TO LOGIN
-                        </marquee>
-                    </Link>
-                )}
-
                 <div className="row">
                     <div className="col-lg-4 col-md-6 my-4 col-sm-12 shrink">
                         <Price
@@ -162,6 +154,14 @@ const Courses = () => {
                         />
                     </div>
                 </div>
+
+                {!isLogin && (
+                    <Link to="/login" onClick={scrollToTop}>
+                        <marquee behavior="" direction="" className="mb-3 bg-info p-1 text-white">
+                            Login to view price. CLICK HERE TO LOGIN
+                        </marquee>
+                    </Link>
+                )}
 
                 <hr />
             </div>

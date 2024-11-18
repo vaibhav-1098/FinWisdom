@@ -38,7 +38,7 @@ const OTPForm = ({ handleOtpSubmit, loading }) => {
                 </div>
                 <button
                     type="submit"
-                    className="btn bg1 btn-primary mt-3 w-100 mb-5"
+                    className="btn bg1 btn-success mt-3 w-100 mb-5"
                     disabled={loading}
                 >
                     {loading ? "Verifying..." : "Verify OTP"}
@@ -214,7 +214,7 @@ const Register = () => {
                                 </div>
                                 <button
                                     type="submit"
-                                    className="btn bg1 btn-primary mt-3 w-100"
+                                    className="btn bg1 btn-success mt-3 w-100"
                                     disabled={loading}
                                 >
                                     {loading ? "Submitting..." : "Submit"}

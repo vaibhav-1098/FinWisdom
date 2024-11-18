@@ -1,10 +1,9 @@
 :root {
-    --custom-color-i: steelblue;
-    --custom-color-ii: skyblue;
+    --custom-color-i: #00a68a;
+    --custom-color-ii: #00cba9;
 }
-
 .navbar-expand-lg {
-    background-color: #4ba5ff;
+    background-color: #37d6bc;
 }
 
 body {
@@ -125,4 +124,8 @@ strong {
 
 .highlight {
     color: #abffff;
+}
+
+.bg-gray{
+    background-color: rgba(0, 255, 187, 0.264) !important;
 }

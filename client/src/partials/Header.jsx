@@ -182,7 +182,7 @@ const Header = () => {
                                 to="/merchandise-store"
                                 onClick={handleNavLinkClick}
                             >
-                                Merchandise
+                                Merchandise Store
                             </NavLink>
                         </li>
                         <li className="nav-item">
