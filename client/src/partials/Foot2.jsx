@@ -15,7 +15,7 @@ const Foot2 = () => {
             <ul>
                 <li><NavLink to="/" className="link" onClick={scrollToTop}>→ Home</NavLink></li>
                 <li><NavLink to="/about-us" className="link" onClick={scrollToTop}>→ About Us</NavLink></li>
-                <li><NavLink to="/advisory" className="link" onClick={scrollToTop}>→ Advisory Services</NavLink></li>
+                <li><NavLink to="/advisory-services" className="link" onClick={scrollToTop}>→ Advisory Services</NavLink></li>
                 <li><NavLink to="/technical-analysis-courses" className="link" onClick={scrollToTop}>→ Technical Analysis Courses</NavLink></li>
                 <li><NavLink to="/books" className="link" onClick={scrollToTop}>→ e-Books</NavLink></li>
                 <li><NavLink to="/blogs" className="link" onClick={scrollToTop}>→ Blogs</NavLink></li>
