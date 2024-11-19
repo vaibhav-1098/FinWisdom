@@ -157,7 +157,7 @@ const Courses = () => {
 
                 {!isLogin && (
                     <Link to="/login" onClick={scrollToTop}>
-                        <marquee behavior="" direction="" className="mb-3 bg-info p-1 text-white">
+                        <marquee behavior="" direction="" className="mb-3 bg-success p-1 text-white">
                             Login to view price. CLICK HERE TO LOGIN
                         </marquee>
                     </Link>
