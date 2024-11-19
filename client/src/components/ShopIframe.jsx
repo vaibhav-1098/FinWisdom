@@ -7,7 +7,7 @@ const ShopIframe = () => {
                 src="https://hsjnfinwisdom.in/"
                 title="Shop Frame"
                 width="100%"
-                height="600px"
+                height="800px"
             ></iframe>
         </>
     );
