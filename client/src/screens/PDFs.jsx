@@ -135,7 +135,7 @@ const PDFs = () => {
                     eBooks!
                 </p>
                 <div className="d-flex justify-content-center">
-                    <Link to="/courses" onClick={scrollToTop}>
+                    <Link to="/technical-analysis-courses" onClick={scrollToTop}>
                         <Button3D text="Technical Analysis Courses" />
                     </Link>
                 </div>
