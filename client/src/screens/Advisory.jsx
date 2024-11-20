@@ -13,7 +13,7 @@ const Advisory = () => {
 
             <div className="container text-muted justify">
                 <p data-aos="fade-out">
-                    <span className="text-primary fs-2">A</span>t HSJN FinWisdom, we're committed to
+                    <span className="text-success fs-2">A</span>t HSJN FinWisdom, we're committed to
                     evolving with our community's needs, and we're thrilled to announce that
                     Advisory Services are on the horizon! While we currently focus on delivering
                     top-notch educational content and informative resources, we're gearing up to

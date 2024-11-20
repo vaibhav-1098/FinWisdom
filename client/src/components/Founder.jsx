@@ -11,11 +11,11 @@ const Founder = () => {
                     backgroundImage: "url('/illustrations/hg.png')",
                 }}></div>
             </div>
-            <div className="border p-3 px-5 border-primary-subtle rounded border-3">
+            <div className="border p-3 px-5 border-success-subtle rounded border-3">
                 <br /><br /><br />
                 <div className="text-center fs-4 name">Himanshu Ghangas</div>
                 <div className="text-center fs-5 text-muted">(Founder & CEO)</div>
-                <p className="text-muted justify py-3 text-center">
+                <p className="text-muted py-3 justify">
                     Meet the visionary behind HSJN FinWisdom, Mr. Himanshu Ghangas. His passion for
                     financial education and unwavering commitment to empowering individuals have
                     been instrumental in shaping our journey. With a wealth of experience in

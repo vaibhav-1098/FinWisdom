@@ -21,8 +21,8 @@ const Books = () => {
 
             <section className="container text-muted">
                 <p className="justify" data-aos="slide-up">
-                    <span className="text-primary fs-2">W</span>elcome to the
-                    <span className="text-primary">HSJN FinWisdom</span> Free Resources Hub! Empower
+                    <span className="text-success fs-2">W</span>elcome to the
+                    <span className="text-success">HSJN FinWisdom</span> Free Resources Hub! Empower
                     your trading journey with our curated collection of valuable insights,
                     educational content, and downloadable resources.
                 </p>

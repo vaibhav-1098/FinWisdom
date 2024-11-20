@@ -20,8 +20,8 @@ const Careers = () => {
 
             <div className="container text-muted text-start">
                 <p data-aos="slide-up">
-                    <span className="text-primary fs-2">W</span>elcome to the{" "}
-                    <span className="text-primary">HSJN FinWisdom</span> career page, where
+                    <span className="text-success fs-2">W</span>elcome to the{" "}
+                    <span className="text-success">HSJN FinWisdom</span> career page, where
                     opportunities for growth and innovation intersect. We are on a mission to
                     empower individuals in the financial world, and we believe that our team is the
                     driving force behind our success.

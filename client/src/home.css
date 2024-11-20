@@ -48,6 +48,7 @@
     height: 280px;
     aspect-ratio: 16/9;
     border-radius: 5px;
+    width: 100%;
 }
 
 .flex {
@@ -69,31 +70,29 @@ ol,ul li {
     text-align: left !important;
 }
 
-/* Base styles for all screen sizes */
 #nav-links {
     display: flex;
-    justify-content: center; /* Center-align nav links by default */
+    justify-content: center; 
 }
 
 #nav-buttons {
     display: flex;
-    justify-content: center; /* Buttons are centered by default */
+    justify-content: center;
 }
 
-/* Media query for large screens */
 @media (min-width: 992px) {
     #nav-links {
-        flex: 1; /* Allow nav links to stay centered */
+        flex: 1; 
     }
 
     #nav-buttons {
-        margin-left: auto; /* Push buttons to the right */
+        margin-left: auto; 
         justify-content: flex-end;
     }
 
     #navbar-collapse {
         display: flex;
-        justify-content: space-between; /* Space out links and buttons */
+        justify-content: space-between; 
         align-items: center;
     }
 }

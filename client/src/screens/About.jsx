@@ -15,8 +15,8 @@ const About = () => {
 
             <div className="container text-muted text-start">
                 <p data-aos="slide-up" className="justify">
-                    <span className="text-primary fs-2">W</span>elcome to
-                    <span className="text-primary"> HSJN FinWisdom</span>, where the intricate world
+                    <span className="text-success fs-2">W</span>elcome to
+                    <span className="text-success"> HSJN FinWisdom</span>, where the intricate world
                     of financial markets meets the art of trading. We are a dynamic and innovative
                     force in the trading education landscape, dedicated to empowering individuals
                     with the knowledge and skills needed to navigate stocks, commodities, forex, and

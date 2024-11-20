@@ -200,10 +200,9 @@ const Header = () => {
                             <li className="nav-item dropdown">
                                 <NavLink
                                     className={({ isActive }) =>
-                                        `nav-link text-white dropdown-toggle ${
-                                            isActive ? "active-class" : ""
-                                        }`
+                                        `nav-link dropdown-toggle ${isActive ? "active-class" : ""}`
                                     }
+                                    style={{ color: "navy", opacity: "1" }}
                                     to="/resources"
                                     role="button"
                                     data-bs-toggle="dropdown"

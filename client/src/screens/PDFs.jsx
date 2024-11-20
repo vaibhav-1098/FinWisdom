@@ -21,7 +21,7 @@ const PDFs = () => {
             <Heading heading="Trading Books PDFs" image="/illustrations/11.png" />
 
             <p className="text-center text-muted mb-5 container">
-                <span className="text-primary fs-2">W</span>elcome to your trading journey! This
+                <span className="text-success fs-2">W</span>elcome to your trading journey! This
                 eBook is packed with essential insights and practical strategies to help you
                 navigate the markets and make informed decisions.
             </p>

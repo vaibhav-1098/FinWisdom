@@ -101,12 +101,13 @@
     width: 125px;
 }
 
-.active-class {
-    background-color: rgb(20, 213, 220);
-    border-radius: 5px;
-    border: 1px solid black;
+/* navigation */
+
+.nav-link{
+    opacity: 0.7 !important;
 }
 
-.blog-img {
-    width: 100%;
+.active-class {
+    font-weight: 600 !important;
+    opacity: 1 !important;
 }

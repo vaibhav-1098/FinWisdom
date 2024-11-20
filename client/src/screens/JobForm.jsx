@@ -9,11 +9,11 @@ const JobForm = () => {
     return (
         <ProtectedRoute>
             <Title title="Job Openings Form" iconClass="bi bi-building-check" />
-            <div className="d-flex justify-content-center align-items-center">
+            <div className="d-flex justify-content-center align-items-center mt-5">
                 <iframe
                     src="https://docs.google.com/forms/d/e/1FAIpQLScrkXZmPPC8AwO0K2gRN9FBCEskjw-WjFwA1cR8im3_p136HQ/viewform?embedded=true"
                     width="640"
-                    height="1720"
+                    height="1750"
                 >
                     Loading…
                 </iframe>

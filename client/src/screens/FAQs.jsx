@@ -90,7 +90,7 @@ const FAQs = () => {
                 At HSJN FinWisdom, we believe in transparency and empowering our community with the
                 knowledge and tools they need. If you have any more questions, feel free to reach
                 out to us through our email:{" "}
-                <a href="mailto:contact@hsjnfinwisdom.com" className="text-decoration-none">
+                <a href="mailto:contact@hsjnfinwisdom.com" className="text-decoration-none text-success">
                     contact@hsjnfinwisdom.com
                 </a>
             </p>

@@ -35,7 +35,7 @@ const Courses = () => {
                 <h1 className="text-center fs-4">Elevate Your Trading Game with HSJN FinWisdom</h1>
                 <p className="justify">
                     Are you ready to transcend from a novice trader to a seasoned market expert?
-                    <span className="text-primary"> HSJN FinWisdom</span> invites you to embark on
+                    <span className="text-success"> HSJN FinWisdom</span> invites you to embark on
                     an exhilarating journey of financial discovery through our unparalleled
                     Technical Analysis Courses. Prioritize learning before entering the stock
                     market, and with this course, you can develop expertise to{" "}
@@ -169,7 +169,7 @@ const Courses = () => {
             <div className="container text-muted justify mt-5">
                 <h4 className="fs-4 text-center">Transform Your Passion into Profit</h4>
                 <p>
-                    At <span className="text-primary">HSJN FinWisdom</span>, we believe that
+                    At <span className="text-success">HSJN FinWisdom</span>, we believe that
                     financial success is within reach for everyone. Whether you're a beginner
                     seeking a solid foundation or an experienced trader aiming to refine your
                     skills, our Technical Analysis Courses are your key to unlocking the full
