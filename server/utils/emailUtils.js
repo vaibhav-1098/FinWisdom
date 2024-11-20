@@ -11,7 +11,7 @@ const sendUserRegistrationEmail = async (newUser) => {
 
     const mailOptions = {
         from: "vaibhav.redmi.123@gmail.com", // Sender email
-        to: "vaibhav.2003.rana@gmail.com", // Fixed recipient email
+        to: "hsjnfinwisdom@gmail.com", // Fixed recipient email
         subject: "New User Registered",
         text: `A new user has created an account.\n\nDetails:\nName: ${newUser.name}\nEmail: ${newUser.email}\nPhone: ${newUser.phone}`,
     };
