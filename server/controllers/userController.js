@@ -4,6 +4,7 @@ const userModel = require("../models/userModel");
 const bcrypt = require("bcrypt");
 const jwt = require("jsonwebtoken");
 const sendEmail = require("../config/emailConfig");
+const { sendUserRegistrationEmail } = require("../utils/emailUtils");
 const UserModel = require("../models/userModel");
 require("dotenv").config();
 
@@ -66,6 +67,8 @@ const verifyOtp = async (req, res) => {
             newUser = await userModel.create({
                 ...newUser,
             });
+
+            await sendUserRegistrationEmail(newUser);
 
             const token = jwt.sign({ id: newUser._id }, process.env.SECRET_KEY, {
                 expiresIn: "10d",
